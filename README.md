@@ -1,7 +1,7 @@
 ## AutoEditor
 Exploration into an auto-editor for LN translations.
 
-This project aimed to be used with [Kudasai](https://github.com/Bikatr7/Kudasai).
+This project aimed to be used with [Kudasai](https://github.com/ktbilyeu/Kudasai).
 
 ## Old Plans
 ### Known Issues
@@ -15,7 +15,7 @@ Automate the following steps:
 3. **Pronoun Correction**: Use a gender chart for accurate pronoun use.
 
 ## Old Architecture Plans
-To be used in conjunction with Kudasai ([Kudasai GitHub Repository](https://github.com/bikatr7/kudasai)). The AutoEditor would take outputs from Kudasai (translated_text.txt and je_check_text.txt) and produce:
+To be used in conjunction with Kudasai ([Kudasai GitHub Repository](https://github.com/ktbilyeu/kudasai)). The AutoEditor would take outputs from Kudasai (translated_text.txt and je_check_text.txt) and produce:
 
 1. **auto_edited_text.txt**: The final edited text.
 2. **je_check_text_with_auto_edits.txt**: The JE check text with auto edits, either as a new layer, logs underneath, or replacing the old one.
@@ -32,4 +32,4 @@ The AutoEditor project primarily involved planning what needed to be done to adv
 - Goals 1 and 2 of the original plan can be achieved to an acceptable degree by including them in the system prompt, avoiding additional passovers.
 - Goal 3 can also be accomplished by the above method, though it is more complicated.
 
-The planned features of AutoEditor will be integrated directly into Kudasai. As of AutoEditor's archiving on June 9, 2024, this integration was already in progress by Bikatr7, with an intended release in version 3.4.9.
+The planned features of AutoEditor will be integrated directly into Kudasai. As of AutoEditor's archiving on June 9, 2024, this integration was already in progress by ktbilyeu, with an intended release in version 3.4.9.
